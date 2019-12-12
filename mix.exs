@@ -1,7 +1,7 @@
 defmodule EctoEnum.Mixfile do
   use Mix.Project
 
-  @version "1.4.0"
+  @version "1.4.1"
 
   def project do
     [
@@ -22,9 +22,10 @@ defmodule EctoEnum.Mixfile do
 
   defp package do
     [
-      maintainers: ["Gabriel Jaldon"],
+      organization: "coingaming",
+      maintainers: ["Gabriel Jaldon", "Ilja Tkachuk"],
       licenses: ["MIT"],
-      links: %{github: "https://github.com/gjaldon/ecto_enum"},
+      links: %{github: "https://github.com/coingaming/ecto_enum-1"},
       files: ~w(mix.exs README.md CHANGELOG.md lib .formatter.exs)
     ]
   end
